@@ -22,3 +22,4 @@ let age = parseInt(ageInput);
 console.log("Вам " + age + " років.");
 
 
+
