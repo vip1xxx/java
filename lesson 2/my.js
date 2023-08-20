@@ -136,7 +136,7 @@ if (isNaN(time)) {
 } else {
     // Перевірка до якої чверті години попадає вказана кількість хвилин
     if (time >= 0 && time <= 59) {
-        var quarter = Math.floor(time / 15) + 1;
+        let quarter = Math.floor(time / 15) + 1;
         console.log("Часова чверть:", quarter);
     } else {
         console.log("Введіть коректне значення хвилин (0-59)");
