@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8308ae7f-18b2-4aac-8308-44be808e0733" name="Changes" comment="push">
+    <list default="true" id="8308ae7f-18b2-4aac-8308-44be808e0733" name="Changes" comment="pushing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson 2/my.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson 2/my.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +87,8 @@
       <workItem from="1692355960008" duration="5295000" />
       <workItem from="1692529740736" duration="3657000" />
       <workItem from="1692534729763" duration="352000" />
+      <workItem from="1692535319163" duration="52000" />
+      <workItem from="1692539295166" duration="2582000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <option name="closed" value="true" />
@@ -159,7 +162,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692533403792</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="pushing">
+      <option name="closed" value="true" />
+      <created>1692535365944</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1692535365944</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,6 +179,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init commit" />
     <MESSAGE value="push" />
-    <option name="LAST_COMMIT_MESSAGE" value="push" />
+    <MESSAGE value="pushing" />
+    <option name="LAST_COMMIT_MESSAGE" value="pushing" />
   </component>
 </project>
