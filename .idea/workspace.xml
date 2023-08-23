@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8308ae7f-18b2-4aac-8308-44be808e0733" name="Changes" comment="init commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesoon 3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesoon 3/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="8308ae7f-18b2-4aac-8308-44be808e0733" name="Changes" comment="new push" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -99,6 +96,7 @@
       <workItem from="1692730705364" duration="2094000" />
       <workItem from="1692782090160" duration="8793000" />
       <workItem from="1692791198221" duration="152000" />
+      <workItem from="1692791401802" duration="273000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <option name="closed" value="true" />
@@ -212,7 +210,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692790965364</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="new push">
+      <option name="closed" value="true" />
+      <created>1692791672762</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1692791672762</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,7 +228,8 @@
     <MESSAGE value="push" />
     <MESSAGE value="pushing" />
     <MESSAGE value="init commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="init commit" />
+    <MESSAGE value="new push" />
+    <option name="LAST_COMMIT_MESSAGE" value="new push" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -97,7 +97,7 @@ let products =  [
 for (let o =0;o<products.length;o++){
     const produkt = products[o];
     document.write(`<div class="product-card">
-        <h3 class="product-title">Title - ${produkt.title} Price - ${produkt['price']}</h3>
-        <img src="${produkt['image']}" alt="" class="product-image">
+        <h3 class="product-title">Title - ${produkt.title} Price - ${produkt.price}</h3>
+        <img src="${produkt.image}" alt="" class="product-image">
     </div>`)
 }
