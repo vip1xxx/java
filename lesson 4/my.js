@@ -66,39 +66,7 @@ const numberItems = 3;
 list2(listText, numberItems);
 //--------------------------------------------------------------------------------
 //- створити функцію яка приймає масив примітивних елементів (числа,стрінги,булеві), та будує для них список
-function buildJavascriptArray(inputArray) {
-    if (!Array.isArray(inputArray)) {
-        throw new Error('Input must be an array');
-    }
-
-    let jsArray = '[';
-
-    for (let i = 0; i < inputArray.length; i++) {
-        const element = inputArray[i];
-
-        if (typeof element === 'number') {
-            jsArray += element;
-        } else if (typeof element === 'string') {
-            jsArray += `'${element}'`;
-        } else if (typeof element === 'boolean') {
-            jsArray += element.toString();
-        } else {
-            throw new Error(`Unsupported element type: ${typeof element}`);
-        }
-
-        if (i !== inputArray.length - 1) {
-            jsArray += ', ';
-        }
-    }
-
-    jsArray += ']';
-
-    return jsArray;
-}
-
-const inputArray = [1, 'hello', true, 'world', false, 42];
-const jsArrayString = buildJavascriptArray(inputArray);
-console.log(jsArrayString);
+//НЕ ЗРОЗУМІВ
 //- створити функцію яка приймає масив об'єктів з наступними полями id,name,age , та виводить їх в документ. Для кожного об'єкту окремий блок.
 //НЕ ЗРОЗУМІВ
 //- створити функцію яка повертає найменьше число з масиву
