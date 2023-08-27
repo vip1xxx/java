@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8308ae7f-18b2-4aac-8308-44be808e0733" name="Changes" comment="new push" />
+    <list default="true" id="8308ae7f-18b2-4aac-8308-44be808e0733" name="Changes" comment="new push">
+      <change afterPath="$PROJECT_DIR$/lesson 4/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson 4/my.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesoon 3/for mentor.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesoon 3/for mentor.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,7 +56,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -97,6 +102,30 @@
       <workItem from="1692782090160" duration="8793000" />
       <workItem from="1692791198221" duration="152000" />
       <workItem from="1692791401802" duration="273000" />
+      <workItem from="1692791705275" duration="44000" />
+      <workItem from="1692791900004" duration="57000" />
+      <workItem from="1692792038765" duration="1036000" />
+      <workItem from="1692797092039" duration="119000" />
+      <workItem from="1692797216490" duration="1390000" />
+      <workItem from="1692810697112" duration="26000" />
+      <workItem from="1692811677863" duration="88000" />
+      <workItem from="1692874369789" duration="58000" />
+      <workItem from="1692874431748" duration="31000" />
+      <workItem from="1692874482054" duration="63000" />
+      <workItem from="1692874549436" duration="43000" />
+      <workItem from="1692877030368" duration="64000" />
+      <workItem from="1692877119868" duration="23000" />
+      <workItem from="1692893368396" duration="1577000" />
+      <workItem from="1692895150085" duration="108000" />
+      <workItem from="1692897733910" duration="33000" />
+      <workItem from="1692963017137" duration="6942000" />
+      <workItem from="1692974796992" duration="9000" />
+      <workItem from="1692974950986" duration="825000" />
+      <workItem from="1693052222203" duration="25000" />
+      <workItem from="1693069287012" duration="47000" />
+      <workItem from="1693069578524" duration="279000" />
+      <workItem from="1693069956500" duration="415000" />
+      <workItem from="1693141721887" duration="1241000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <option name="closed" value="true" />
@@ -218,7 +247,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692791672762</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="new push">
+      <option name="closed" value="true" />
+      <created>1692791742804</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1692791742804</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

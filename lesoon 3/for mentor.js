@@ -43,6 +43,7 @@ for (let a = 0; a<users.length; a++){
         document.write(`<h3>${users[a].name}--${users[a].status}</h3>`);
     }
 }
+
 for (let b = 0;b<users.length;b++){
     if (users[b].status ===true){
         document.write(`<h3>${users[b].name}---${users[b].status}</h3>`)
@@ -97,7 +98,8 @@ let products =  [
 for (let o =0;o<products.length;o++){
     const produkt = products[o];
     document.write(`<div class="product-card">
-        <h3 class="product-title">Title - ${produkt.title} Price - ${produkt.price}</h3>
+        <h3 class="product-title">Title - ${produkt.title}
+         Price - ${produkt.price}</h3>
         <img src="${produkt.image}" alt="" class="product-image">
     </div>`)
 }
