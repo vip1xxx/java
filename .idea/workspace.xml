@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8308ae7f-18b2-4aac-8308-44be808e0733" name="Changes" comment="new push" />
+    <list default="true" id="8308ae7f-18b2-4aac-8308-44be808e0733" name="Changes" comment="new push">
+      <change afterPath="$PROJECT_DIR$/lesson v/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson v/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -120,7 +124,8 @@
       <workItem from="1693069287012" duration="47000" />
       <workItem from="1693069578524" duration="279000" />
       <workItem from="1693069956500" duration="415000" />
-      <workItem from="1693141721887" duration="1546000" />
+      <workItem from="1693141721887" duration="1603000" />
+      <workItem from="1693419335886" duration="1073000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <option name="closed" value="true" />
@@ -258,7 +263,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693143255384</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="new push">
+      <option name="closed" value="true" />
+      <created>1693143326457</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1693143326457</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
