@@ -65,7 +65,6 @@ console.log(arr);
 //==========================
 let numbers = [10, 8, -7, 55, 987, -1011, 0, 1050, 0];
 
-// Використовуємо метод map для перетворення чисел в рядки
 let strings = numbers.map(function(num) {
     return num.toString();
 });
