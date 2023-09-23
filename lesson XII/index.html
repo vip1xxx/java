@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Список користувачів</title>
+</head>
+<body>
+<h1>Список користувачів</h1>
+<ul id="user-list">
+
+</ul>
+
+<script>
+
+  async function fetchUsers() {
+    try {
+      const response = await fetch('http://jsonplaceholder.typicode.com/users');
+      const users = await response.json();
+
+      const userList = document.getElementById('user-list');
+      users.forEach(user => {
+        const listItem = document.createElement('li');
+        listItem.innerHTML = `<a href="user-details.html?id=${user.id}">${user.id} - ${user.name}</a>`;
+        userList.appendChild(listItem);
+      });
+    } catch (error) {
+      console.error('Помилка отримання користувачів:', error);
+    }
+  }
+
+  fetchUsers();
+</script>
+</body>
+</html>
+
+
+
