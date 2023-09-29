@@ -91,11 +91,9 @@ const urlParams = new URLSearchParams(window.location.search);
 let userId = urlParams.get('userId');
 
 
-// Отримуємо дані користувачів з API
 fetch('https://jsonplaceholder.typicode.com/users')
     .then(response => response.json())
     .then(users => {
-        // Знаходимо індекс користувача за його ID
         for (let i = 0; i < users.length; i++) {
             if (users[i].id === parseInt(userId)) {
                 currentUserIndex = i;
@@ -103,7 +101,6 @@ fetch('https://jsonplaceholder.typicode.com/users')
             }
         }
 
-        // Перевірка, чи користувача знайдено
         if (currentUserIndex === -1) {
             console.error('User not found');
             return;
@@ -130,7 +127,6 @@ fetch('https://jsonplaceholder.typicode.com/users')
 
 showPostsButton.addEventListener('click', () => {
     const userId = usersData[currentUserIndex].id;
-    // Отримуємо список постів поточного користувача з API
     fetch(`https://jsonplaceholder.typicode.com/users/${userId}/posts`)
         .then(response => response.json())
         .then(posts => {
