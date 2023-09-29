@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Деталі користувача</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Деталі користувача</title>
 </head>
 <body>
 <h1>Деталі користувача</h1>
@@ -12,25 +12,25 @@
 </div>
 
 <script>
-  const urlParams = new URLSearchParams(window.location.search);
-  const userId = urlParams.get('id');
+    const urlParams = new URLSearchParams(window.location.search);
+    const userId = urlParams.get('id');
 
-  async function fetchUserDetails() {
-    try {
-      const response = await fetch(`http://jsonplaceholder.typicode.com/users/${userId}`);
-      const user = await response.json();
+    async function fetchUserDetails() {
+        try {
+            const response = await fetch(`http://jsonplaceholder.typicode.com/users/${userId}`);
+            const user = await response.json();
 
-      const userDetails = document.getElementById('user-details');
-      userDetails.innerHTML = '<h2>Інформація про користувача:</h2>';
-      for (const key in user) {
-        userDetails.innerHTML += `<p><strong>${key}:</strong> ${user[key]}</p>`;
-      }
-    } catch (error) {
-      console.error('Помилка отримання деталей користувача:', error);
+            const userDetails = document.getElementById('user-details');
+            userDetails.innerHTML = '<h2>Інформація про користувача:</h2>';
+            for (const key in user) {
+                userDetails.innerHTML += `<p><strong>${key}:</strong> ${user[key]}</p>`;
+            }
+        } catch (error) {
+            console.error('Помилка отримання деталей користувача:', error);
+        }
     }
-  }
 
-  fetchUserDetails();
+    fetchUserDetails();
 </script>
 </body>
 </html>
