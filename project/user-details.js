@@ -74,19 +74,6 @@ nextUserButton.addEventListener('click', () => {
     updateUserIndex(currentUserIndex + 1);
 });
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 const urlParams = new URLSearchParams(window.location.search);
 let userId = urlParams.get('userId');
 
@@ -130,7 +117,7 @@ showPostsButton.addEventListener('click', () => {
     fetch(`https://jsonplaceholder.typicode.com/users/${userId}/posts`)
         .then(response => response.json())
         .then(posts => {
-            postList.innerHTML = ''; // Очищаємо список постів
+            postList.innerHTML = '';
 
             posts.forEach(post => {
                 const postBlock = document.createElement('div');
