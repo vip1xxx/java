@@ -24,8 +24,13 @@
       <change afterPath="$PROJECT_DIR$/lesson X/index5.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lesson X/index6.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lesson X/index7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson XII/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson XII/user-details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/post-details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/post-details.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/user-details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/user-details.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesoon 3/for mentor.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/lesoon 3/index.html" beforeDir="false" />
@@ -35,6 +40,8 @@
       <change beforePath="$PROJECT_DIR$/lesson 2/my.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson 4/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson 4/my.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson XII/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson XII/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson XII/user-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson XII/user-details.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,9 +51,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
-        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -181,7 +188,15 @@
       <workItem from="1695144554263" duration="1585000" />
       <workItem from="1695403890009" duration="1120000" />
       <workItem from="1695472695665" duration="54000" />
-      <workItem from="1695474384247" duration="380000" />
+      <workItem from="1695474384247" duration="484000" />
+      <workItem from="1695474921428" duration="30000" />
+      <workItem from="1695475512617" duration="518000" />
+      <workItem from="1695476033652" duration="222000" />
+      <workItem from="1695476703001" duration="369000" />
+      <workItem from="1695477986744" duration="250000" />
+      <workItem from="1695664074202" duration="308000" />
+      <workItem from="1695901460032" duration="912000" />
+      <workItem from="1695978925394" duration="3589000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <option name="closed" value="true" />
@@ -367,7 +382,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694963610110</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="new push">
+      <option name="closed" value="true" />
+      <created>1695474814310</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1695474814310</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

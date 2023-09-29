@@ -1,0 +1,100 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+.user {
+    background-color: #123dc9;
+    margin: 10px;
+    padding: 10px;
+    border: 7px solid rgba(229, 255, 0, 0.98);
+    display: inline-block;
+    width: 45%;
+    box-sizing: border-box;
+    border-radius: 20px;
+    justify-content: center;
+    text-align: center;
+    color: white;
+
+}
+
+.user button {
+    margin-top: 10px;
+    width: 140px;
+    height:60px;
+    background-color: gold;
+    border-radius: 40px;
+    cursor: pointer;
+
+}
+
+.user-details {
+    background-color: #0a6aff;
+    margin: 10px auto;
+    padding: 20px;
+    width: 40%;
+    text-align: center;
+    border-radius: 40px;
+    color: white;
+}
+
+.show-posts {
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+    height: 10vh;
+    border-radius: 40px;
+    background-color: gold;
+    cursor: pointer;
+}
+
+.post {
+    background-color: #8a3861;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    display: inline-block;
+    width: 19%;
+    box-sizing: border-box;
+    color: white;
+    border-radius: 40px;
+}
+
+.comment {
+    background-color: #f9f9f9;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    display: inline-block;
+    width: 23%;
+    box-sizing: border-box;
+}
+.user-navigation {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.user-navigation button {
+    margin: 5px;
+}
+.user-navigation {
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.user-navigation button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.user-navigation button:hover {
+    background-color: #0056b3;
+}
+
