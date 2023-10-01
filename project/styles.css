@@ -1,12 +1,12 @@
 body{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Martian Mono', monospace;
     font-size: 20px;
 }
 .user {
     background-color: #123dc9;
     margin: 10px;
     padding: 10px;
-    border: 7px solid rgba(229, 255, 0, 0.98);
+    border: 7px solid rgba(111, 234, 10, 0.98);
     display: inline-block;
     width: 45%;
     box-sizing: border-box;
@@ -14,19 +14,23 @@ body{
     justify-content: center;
     text-align: center;
     color: white;
-
 }
-
 .user button {
     margin-top: 10px;
     width: 140px;
     height:60px;
-    background-color: gold;
+    background:linear-gradient(45deg, #8314c4 0%, #9393be 100%);
     border-radius: 40px;
     cursor: pointer;
-
+    transition: background-position 0.5s ease;
+    background-size: 300% 300%;
+    border: none;
+    color: white;
+    font-size: 20px;
 }
-
+.user button:hover {
+    background-position: right;
+}
 .user-details {
     background-color: #0a6aff;
     margin: 10px auto;
@@ -36,17 +40,22 @@ body{
     border-radius: 40px;
     color: white;
 }
-
 .show-posts {
     display: block;
     margin: 0 auto;
     width: 30%;
     height: 10vh;
     border-radius: 40px;
-    background-color: gold;
+    background:linear-gradient(45deg, #8314c4 0%, #9393be 100%);
+    transition: background-position 0.4s ease;
     cursor: pointer;
+    border: none;
+    background-size: 300% 300%;
 }
-
+.show-posts:hover{
+    background-position: right;
+    background-color: gold;
+}
 .post {
     background-color: #8a3861;
     margin: 10px;
@@ -58,7 +67,6 @@ body{
     color: white;
     border-radius: 40px;
 }
-
 .comment {
     background-color: #f9f9f9;
     margin: 10px;
@@ -72,7 +80,6 @@ body{
     text-align: center;
     margin-top: 20px;
 }
-
 .user-navigation button {
     margin: 5px;
 }
@@ -81,9 +88,8 @@ body{
     margin-top: 20px;
     cursor: pointer;
 }
-
 .user-navigation button {
-    background-color: #007BFF;
+    background-color: rgba(27, 79, 147, 0.52);
     color: white;
     border: none;
     padding: 10px 20px;
@@ -93,7 +99,6 @@ body{
     margin: 5px;
     transition: background-color 0.3s ease;
 }
-
 .user-navigation button:hover {
     background-color: #0056b3;
 }

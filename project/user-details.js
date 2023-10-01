@@ -109,9 +109,6 @@ fetch('https://jsonplaceholder.typicode.com/users')
         `;
     })
     .catch(error => console.error('Error fetching user details:', error));
-
-
-
 showPostsButton.addEventListener('click', () => {
     const userId = usersData[currentUserIndex].id;
     fetch(`https://jsonplaceholder.typicode.com/users/${userId}/posts`)

@@ -24,6 +24,8 @@
       <change afterPath="$PROJECT_DIR$/lesson X/index5.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lesson X/index6.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lesson X/index7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/fantasy-phoenix-bird-cloud-fire-orange_color-389770.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesoon 3/for mentor.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/lesoon 3/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson 1/index.html" beforeDir="false" />
@@ -32,6 +34,12 @@
       <change beforePath="$PROJECT_DIR$/lesson 2/my.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson 4/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson 4/my.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/project/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/post-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/post-details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/project/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/user-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/user-details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/user-details.js" beforeDir="false" afterPath="$PROJECT_DIR$/project/user-details.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,7 +194,15 @@
       <workItem from="1695477986744" duration="250000" />
       <workItem from="1695664074202" duration="308000" />
       <workItem from="1695901460032" duration="912000" />
-      <workItem from="1695978925394" duration="4556000" />
+      <workItem from="1695978925394" duration="6426000" />
+      <workItem from="1696006549489" duration="2617000" />
+      <workItem from="1696065171985" duration="1000" />
+      <workItem from="1696070496104" duration="1537000" />
+      <workItem from="1696072488739" duration="2150000" />
+      <workItem from="1696084046354" duration="2153000" />
+      <workItem from="1696156449612" duration="1180000" />
+      <workItem from="1696159598318" duration="425000" />
+      <workItem from="1696172249689" duration="411000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <option name="closed" value="true" />
@@ -412,7 +428,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695983284269</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="init commit">
+      <option name="closed" value="true" />
+      <created>1695983587745</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1695983587745</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
