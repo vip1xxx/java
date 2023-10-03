@@ -109,32 +109,3 @@ fetch('https://jsonplaceholder.typicode.com/users')
         `;
     })
     .catch(error => console.error('Error fetching user details:', error));
-showPostsButton.addEventListener('click', () => {
-    const userId = usersData[currentUserIndex].id;
-    fetch(`https://jsonplaceholder.typicode.com/users/${userId}/posts`)
-        .then(response => response.json())
-        .then(posts => {
-            postList.innerHTML = '';
-
-            posts.forEach(post => {
-                const postBlock = document.createElement('div');
-                postBlock.classList.add('post');
-
-                const postId = document.createElement('p');
-                postId.textContent = `ID: ${post.id}`;
-
-                const postTitle = document.createElement('p');
-                postTitle.textContent = `Title: ${post.title}`;
-
-                const postBody = document.createElement('p');
-                postBody.textContent = `Body: ${post.body}`;
-
-                postBlock.appendChild(postId);
-                postBlock.appendChild(postTitle);
-                postBlock.appendChild(postBody);
-
-                postList.appendChild(postBlock);
-            });
-        })
-        .catch(error => console.error('Error fetching user posts:', error));
-});
